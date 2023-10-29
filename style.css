@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div_1 {
+  display: flex;
+  padding-right: 10px;
+  padding-left: 10px;
+  
+}
+
+.container_1 {
+  width: 100%;
+  height: 100px;
+  background-color: #ff00ff;
+  padding-top: 15px;
+
+}
+.col-md-2 {
+  background-color: #fbb3ff;
+  margin-right: 46%;
+  height: 70px;
+}
+.col-md-1 {
+  background-color: #fbb3ff;
+  height: 70px;
+  margin-left: 10px;
+
+  
+}
+
+.container_3 {
+  width: 700px;
+  height: 500px;
+  margin:  0 auto;
+  
+}
+
+.row {
+  float: right;
+  height: 500px;
+  width: 450px;
+  display: grid;
+  grid-template-columns: 130px 130px 130px;
+}
+.item {
+  background-color: #fff75a;
+  height: 150px;
+  grid-template-rows: 10fr 10fr;
+　gap: 20px 20px;
+}
+
+.container_4 {
+  width: 100%;
+  height: 170px;
+}
+
+.row_3 {
+  height: 50px;
+  width: 500px;
+  grid-row: 1 / 3; /*アイテムの配置位置を「行方向：ライン番号１から３の間」に指定*/
+　　　grid-column: 2 / 4;
+  
+}
